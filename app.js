@@ -18,6 +18,10 @@ app.get("/",(req,res)=>{
   res.render("book");
 })
 
+app.get("/register",(req,res)=>{
+  res.render("register");
+})
+
 app.listen(4000,()=>{
   console.log("port connected");
 })  
