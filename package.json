@@ -1,0 +1,19 @@
+{
+  "name": "car",
+  "version": "1.0.0",
+  "description": "Car_Rent_Website project, the name itself suggests that it's for car rent purposes. Buyer can easily rent their budgeted car at a suitable cost. This project is created using HTML 5, CSS 3, Bootstrap, Javascript with Swiper.js library, and PHP with MySQL database connectivity is at the backend.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "deep",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.3",
+    "express-handlebars": "^7.1.2",
+    "hbs": "^4.2.0",
+    "mongodb": "^6.4.0",
+    "mongoose": "^8.2.1",
+    "nodemon": "^3.1.0"
+  }
+}
