@@ -17,10 +17,12 @@ app.get("/",(req,res)=>{
   res.render("index");
 })
 
-app.get("/Register.hbs",(req,res)=>{
-  res.render("Register")
+app.get("/login.hbs",(req,res)=>{
+  res.render("login")
 })
-
+app.get("/index.hbs",(req,res)=>{
+  res.render("index")
+})
 
 
 app.listen(4000,()=>{
